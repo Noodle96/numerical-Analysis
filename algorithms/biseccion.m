@@ -13,5 +13,6 @@ function [root, iteraciones] = biseccion(left,right,tolerancia)
 endfunction
 
 function ans = f(x)
-    ans = sqrt(x) -5*exp(-x);
+    %ans = sqrt(x) -5*exp(-x);
+    ans = x - 1/(2+log(x)) -1;
 endfunction
