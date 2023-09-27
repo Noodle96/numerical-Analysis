@@ -1,4 +1,4 @@
-function [root, iteraciones] = ejercicio01_secante(x1, x0, tolerancia)
+function [root, iteraciones] = ejercicio02_secante(x1, x0, tolerancia)
     iteraciones = 0;
     while( abs(x1 - theta(x1,x0)) >= tolerancia)
         iteraciones = iteraciones +1;
