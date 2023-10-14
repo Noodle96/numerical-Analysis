@@ -2,6 +2,8 @@
     Tag: Triangulizar el sistema
     Este proceso es obligatorio para el metodo
     de Gauss.
+    Complejidad:
+        convertirTriangularSuperior(A,b): O(n^3).
 %}
 function [A,b] = convertirTriangularSuperior(A,b)
     n = length(A);

@@ -1,6 +1,8 @@
 %{
     tag: Resolver el sistema dado.
     Requisito: La matriz A tiene ser triangular
+    Complejidad:
+        resolverSistema(A,b): O(n^2).
 %}
 function x = resolverSistema(A,b)
     n = length(A);
