@@ -18,14 +18,16 @@ Consideremos la siguiente tabla que representa la cotización del dólar (t<sub>
 
 </div>
 
-Luego si graficamos los pares ((t<sub>i</sub>) ,(c<sub>i</sub>) ) que disponemos en los datos, formamos el siguiente diagrama de dispersión:
+Luego si graficamos los pares (t<sub>i</sub> ,c<sub>i</sub> ) que disponemos en los datos, formamos el siguiente diagrama de dispersión:
 <p align="center">
   <img src='../../assets/images/minimosCuadrados/puntos.jpg' width='800px' />
 </p>
 
-En base a estos datos nos interesa encontrar una función c(t) con la que podeamos calcular una estimativa de la cotización del dolar para un tiempo cualquiera, para un polinomio de grado n el polinomio será
-\[c(t) = a_0 + a_1t + a_2t^2 + ... + a_nt^n\]
+En base a estos datos nos interesa encontrar una función c(t) con la que podeamos calcular una estimativa de la cotización del dolar para un tiempo cualquiera, para un polinomio de grado n el polinomio será\\
 
+<p align="center">
+  c(t) = a<sub>0</sub> + a<sub>1</sub>t + a<sub>2</sub>t<sup>2</sup> + ... + a<sub>n</sub>t<sup>n</sup>
+</p>
 Ajustando los puntos a un polinomio de grado 1
 <p align="center">
   <img src='../../assets/images/minimosCuadrados/polinomio_01.jpg' width='800px' />
