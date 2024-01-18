@@ -3,7 +3,7 @@ Consideremos la siguiente tabla que representa la cotización del dólar (\(c_i\
 
 <div align="center">
 
-| Tiempo (\(t_i\)) | Cotización del dólar (\(c_i\)) |
+| Tiempo (t_i) | Cotización del dólar (c_i) |
 | ----------------- | ----------------------------- |
 | 1 | 3790.81   |
 | 2 |  4407.51  |
