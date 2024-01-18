@@ -15,10 +15,27 @@
 - [Minimos cuadrados](#minimos-cuadrados)
 
 
-# Ceros Reales de Funciones Reales
+## Ceros Reales de Funciones Reales
 [(Back to top)](#table-of-contents)
-- [Ir Ceros Reales de Funciones Reales](/algorithms/MinimosCuadrados/README.md)
+- [Ir Ceros Reales de Funciones Reales](/algorithms/CerosReales-FuncionesReales/README.md)
 - Método de la bisección
 - Método de Newton-Raphson
 - Método de punto fijo
 - Método de la secante
+
+## Solucion de sistemas lineales
+[(Back to top)](#table-of-contents)
+- [Ir Sistemas lineales](/algorithms/sistemaLineales/README.md)
+- Gauss Jordan
+- Gauus-Jacobi
+- Gauss-Seidel
+
+## Solucion de sistemas no lineales
+[(Back to top)](#table-of-contents)
+- [Ir Sistemas no lineales](/algorithms/sistemasNoLineales/README.md)
+- Broyden 1
+
+## Minimos Cuadrados
+[(Back to top)](#table-of-contents)
+- [Ir Minimos cuadrados](/algorithms/MinimosCuadrados/README.md)
+- Algoritmo PolyFit

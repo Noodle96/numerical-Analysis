@@ -1,8 +1,8 @@
 %{
     AUTHOR: Russell Tito
     DESCRIPCION:
-        Esta función ajusta un polinomio a un conjunto de datos
-        mediante el método de mínimos cuadrados.
+        Esta función ajusta un conjunto de datos a un
+        polinomio mediante el método de mínimos cuadrados.
     INPUT:
         vector columna x: variables independiente
         vector columna y: variables dependientes
