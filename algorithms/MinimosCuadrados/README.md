@@ -23,7 +23,7 @@ Luego si graficamos los pares (t<sub>i</sub> ,c<sub>i</sub> ) que disponemos en 
   <img src='../../assets/images/minimosCuadrados/puntos.jpg' width='800px' />
 </p>
 
-En base a estos datos nos interesa encontrar una función c(t) con la que podeamos calcular una estimativa de la cotización del dolar para un tiempo cualquiera, para un polinomio de grado n el polinomio será\\
+En base a estos datos nos interesa encontrar una función c(t) con la que podeamos calcular una estimativa de la cotización del dolar para un tiempo cualquiera, para un polinomio de grado n el polinomio será
 
 <p align="center">
   c(t) = a<sub>0</sub> + a<sub>1</sub>t + a<sub>2</sub>t<sup>2</sup> + ... + a<sub>n</sub>t<sup>n</sup>
