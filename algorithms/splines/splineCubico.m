@@ -65,16 +65,16 @@ function splineCubico(x,y)
 	% endfor
 	% pol
 	% Formando los polinomios
-    pol = cell(n, 1);
-    for i = 1:n
-        pol{i} = @(x) a(i) * (x - x(i))^3 + b(i) * (x - x(i))^2 + c(i) * (x - x(i)) + d(i);
-    end
-	pol
+    % pol = cell(n, 1);
+    % for i = 1:n
+    %     pol{i} = @(x) a(i) * (x - x(i))^3 + b(i) * (x - x(i))^2 + c(i) * (x - x(i)) + d(i);
+    % end
+	% pol
     
     % Puedes retornar o imprimir los polinomios según tus necesidades
     disp('Coeficientes de los polinomios cúbicos:');
     disp([a, b, c, d]);
-    
+
     % disp('Polinomios cúbicos:');
     % disp(pol);
 	% Imprimir los polinomios cúbicos de manera más legible
@@ -83,6 +83,35 @@ function splineCubico(x,y)
 		fprintf('P%d(x) = %.4f * (x - %.4f)^3 + %.4f * (x - %.4f)^2 + %.4f * (x - %.4f) + %.4f\n', ...
 			i, a(i), x(i+1), b(i), x(i+1), c(i), x(i+1), d(i));
 	end
+
+	x_f = x(1):0.01:x(n+1);
+	y_f = zeros(1, length(x_f));
+	for i = 1:length(x_f)
+		y_f(i) = x_f(i).^3 - x_f(i).^2 + x_f(i) + 2;
+	endfor
+	plot(x_f, y_f, 'r');
+	hold on;
+
+	% ploteando los puntos
+	plot(x, y, 'o', 'MarkerFaceColor', 'k', 'MarkerEdgeColor', 'k');
+    hold on;
+
+
+
+	% GRAFICANDO LOS POLINOMIOS
+	% crea un conjunto de valores de x para evaluar el polinomio
+	x_values = linspace(min(x), max(x), 10);  % crea un conjunto de valores de x para evaluar el polinomio
+	for i = 1:n
+		% selecciona los valores de x en el intervalo correspondiente
+		% x_interval = x_values(x_values >= x(i) & x_values <= x(i+1));
+		x_interval = x(i):0.1:x(i+1);
+		% evalúa el polinomio en el intervalo
+		y_values = a(i) * (x_interval - x(i+1)).^3 + b(i) * (x_interval - x(i+1)).^2 + c(i) * (x_interval - x(i+1)) + d(i);
+		% grafica el polinomio en el intervalo
+		plot(x_interval, y_values);
+		hold on;  % mantiene la gráfica actual para que el próximo polinomio se grafique en la misma figura
+	endfor
+	hold off;  % libera la gráfica actual para que las futuras gráficas se muestren en una nueva figura
 endfunction
 
 
