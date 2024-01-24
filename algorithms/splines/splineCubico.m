@@ -89,46 +89,26 @@ function splineCubico(x,y)
 	for i = 1:length(x_f)
 		y_f(i) = x_f(i).^3 - x_f(i).^2 + x_f(i) + 2;
 	endfor
-	plot(x_f, y_f, 'r');
+	plot(x_f, y_f, 'b','linewidth', 2);
 	hold on;
 
 	% ploteando los puntos
 	plot(x, y, 'o', 'MarkerFaceColor', 'k', 'MarkerEdgeColor', 'k');
+	xlabel('x','Color','black','FontWeight','bold');
+    ylabel('y','Color','black','FontWeight','bold');
+	title('Spline Cubico','Color','black','FontWeight','bold');
+	legend('Funcion original','Puntos','Location','northwest')
     hold on;
 
 
 
 	% GRAFICANDO LOS POLINOMIOS
-	% crea un conjunto de valores de x para evaluar el polinomio
-	x_values = linspace(min(x), max(x), 10);  % crea un conjunto de valores de x para evaluar el polinomio
 	for i = 1:n
-		% selecciona los valores de x en el intervalo correspondiente
-		% x_interval = x_values(x_values >= x(i) & x_values <= x(i+1));
 		x_interval = x(i):0.1:x(i+1);
-		% evalúa el polinomio en el intervalo
 		y_values = a(i) * (x_interval - x(i+1)).^3 + b(i) * (x_interval - x(i+1)).^2 + c(i) * (x_interval - x(i+1)) + d(i);
-		% grafica el polinomio en el intervalo
-		plot(x_interval, y_values);
-		hold on;  % mantiene la gráfica actual para que el próximo polinomio se grafique en la misma figura
+		plot(x_interval, y_values, '-r', 'linewidth', 2);
+		legend('Funcion original','Puntos','spline','Location','northwest')
+		hold on;
 	endfor
-	hold off;  % libera la gráfica actual para que las futuras gráficas se muestren en una nueva figura
+	hold off;
 endfunction
-
-
-
-
-% for i = 1:n
-% 		ai = a(i);
-% 		bi = b(i);
-% 		ci = c(i);
-% 		di = d(i);
-% 		xi = x(i);
-% 		pol{i} = create_polynomial(ai, bi, ci, di, xi);
-% 		pol_str = sprintf('p%d(x) = %.2f*(x-%.2f)^3 + %.2f*(x-%.2f)^2 + %.2f*(x-%.2f) + %.2f', i, ai, xi, bi, xi, ci, xi, di);
-% 		disp(pol_str);
-% 	endfor
-% disp('test')
-	% x_test = 1.5;  % o cualquier valor de x que desees probar
-	% for i = 1:n
-	% 	disp(pol{i}(x_test));
-	% endfor
