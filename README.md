@@ -13,6 +13,7 @@
 - [Solución de sistemas lineales](#solucion-de-sistemas-lineales)
 - [Solución de sistemas no lineales](#solucion-de-sistemas-no-lineales)
 - [Minimos cuadrados](#minimos-cuadrados)
+- [Splines](#splines)
 
 
 ## Ceros Reales de Funciones Reales
@@ -39,3 +40,9 @@
 [(Back to top)](#table-of-contents)
 - [Ir Minimos cuadrados](/algorithms/MinimosCuadrados/README.md)
 - Algoritmo PolyFit
+
+
+## Splines
+[(Back to top)](#table-of-contents)
+- [Ir Splines](/algorithms/splines/README.md)
+- Algoritmo Spline Cúbico
