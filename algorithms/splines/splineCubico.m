@@ -1,3 +1,19 @@
+%{
+    AUTHOR: Russell Tito
+    DESCRIPCION:
+        Se utiliza para construir una curva suave que pasa a través de
+		un conjunto dado de puntos de control. Una spline cúbica en particular
+		se refiere a una curva definida por segmentos de polinomios cúbicos.
+    INPUT:
+        vector  x: variables independiente
+        vector  y: variables dependientes
+    OUTPUT:
+        Retorna la curva
+    USO:
+        splineCubico(x,y)
+    FUNCION_OCTAVE:
+        y_interp = interp1(x, y, x_interp, 'spline');
+%}
 function splineCubico(x,y)
 	n = length(x) -1 ;
 	% formando h
@@ -84,20 +100,20 @@ function splineCubico(x,y)
 			i, a(i), x(i+1), b(i), x(i+1), c(i), x(i+1), d(i));
 	end
 
-	x_f = x(1):0.01:x(n+1);
-	y_f = zeros(1, length(x_f));
-	for i = 1:length(x_f)
-		y_f(i) = x_f(i).^3 - x_f(i).^2 + x_f(i) + 2;
-	endfor
-	plot(x_f, y_f, 'b','linewidth', 2);
-	hold on;
+	% x_f = x(1):0.01:x(n+1);
+	% y_f = zeros(1, length(x_f));
+	% for i = 1:length(x_f)
+	% 	y_f(i) = x_f(i).^3 - x_f(i).^2 + x_f(i) + 2;
+	% endfor
+	% plot(x_f, y_f, 'b','linewidth', 2);
+	% hold on;
 
 	% ploteando los puntos
 	plot(x, y, 'o', 'MarkerFaceColor', 'k', 'MarkerEdgeColor', 'k');
 	xlabel('x','Color','black','FontWeight','bold');
     ylabel('y','Color','black','FontWeight','bold');
 	title('Spline Cubico','Color','black','FontWeight','bold');
-	legend('Funcion original','Puntos','Location','northwest')
+	legend('Puntos','Location','northwest')
     hold on;
 
 
@@ -107,7 +123,7 @@ function splineCubico(x,y)
 		x_interval = x(i):0.1:x(i+1);
 		y_values = a(i) * (x_interval - x(i+1)).^3 + b(i) * (x_interval - x(i+1)).^2 + c(i) * (x_interval - x(i+1)) + d(i);
 		plot(x_interval, y_values, '-r', 'linewidth', 2);
-		legend('Funcion original','Puntos','spline','Location','northwest')
+		legend('Puntos','spline','Location','northwest')
 		hold on;
 	endfor
 	hold off;
