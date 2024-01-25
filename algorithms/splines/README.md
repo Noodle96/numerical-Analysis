@@ -1,7 +1,7 @@
 # Splines Interpolantes
 Consiste en usar una función por partes, cuyas partes son justamente polinomios interpolantes de grado menor .Esta función por partes deberia de tener características deseables, como continuidad y difereciabilidad.
 
-**Ejemplo 1** Sea \( f(x) = x**3 -x**2 + x +2 \) halle una spline cúbica que interpole los siguientes puntos
+**Ejemplo 1** Sea \( f(x) = x^3 -x^2 + x +2 \) halle una spline cúbica que interpole los siguientes puntos
 <div align="center">
 
 |  x<sub>k</sub>|f(x<sub>k</sub>)|
