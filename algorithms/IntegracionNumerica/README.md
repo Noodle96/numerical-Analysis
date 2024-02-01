@@ -194,7 +194,7 @@ mencionada en en arriba. Compare con el método de los trapecios.
 Ejercicio 4 Calcule numéricamente
 
 $$
-\int_{-3}^{7} \operatorname{sen}\left(7 x^{3}+\operatorname{sen}\left(\ln \left(x^{4}+x^{2}+5\right)\right)\right) d x
+\int_{-3}^{7} \sin\left(7 x^{3}+ sin\left(\ln \left(x^{4}+x^{2}+5\right)\right)\right) dx
 $$
 
 Comente los resultados en clase.
