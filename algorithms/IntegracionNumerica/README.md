@@ -1,3 +1,4 @@
+Material Realizado por el profesor PERCY ANTONIO TICONA CENTENO
 # Integración numérica 
 
 ## Fórmulas de Newton-Cotes
