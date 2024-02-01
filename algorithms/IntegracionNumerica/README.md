@@ -21,8 +21,9 @@ Ejemplo 1 Consideremos los discos duros de un determinado modelo y marca produci
 Se sabe que la siguiente función
 
 $$
-f(x)=\frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}}, \quad-\infty<x<\infty
+f(x) = \frac{1}{\sigma \sqrt{2 \pi}}
 $$
+<!-- f(x)=\frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}}, \quad-\infty<x<\infty -->
 
 donde $x$ es la variable aleatoria, $\mu$ es la media y $\sigma$ la desviación estándar, corresponde a la distribución Normal.
 
