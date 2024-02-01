@@ -76,17 +76,18 @@ $$
 & =\frac{1}{h}\left(x_{1} f\left(x_{0}\right) \int_{x_{0}}^{x_{1}} d x-f\left(x_{0}\right) \int_{x_{0}}^{x_{1}} x d x+f\left(x_{1}\right) \int_{x_{0}}^{x_{1}} x d x-x_{0} f\left(x_{1}\right) \int_{x_{0}}^{x_{1}} d x\right) \\
 & =\frac{1}{h}\left(x_{1} f\left(x_{0}\right)\left(x_{1}-x_{0}\right)-\frac{f\left(x_{0}\right)\left(x_{1}^{2}-x_{0}^{2}\right)}{2}+\frac{f\left(x_{1}\right)\left(x_{1}^{2}-x_{0}^{2}\right)}{2}-x_{0} f\left(x_{1}\right)\left(x_{1}-x_{0}\right)\right) \\
 & =\frac{1}{h}\left(x_{1} f\left(x_{0}\right) h-\frac{f\left(x_{0}\right)\left(x_{1}+x_{0}\right) h}{2}+\frac{f\left(x_{1}\right)\left(x_{1}+x_{0}\right) h}{2}-x_{0} f\left(x_{1}\right) h\right) \\
-& =\frac{1}{h}\left(x_{1} f\left(x_{0}\right) h-\frac{f\left(x_{0}\right)\left(x_{1}+x_{0}\right) h}{2}+\frac{f\left(x_{1}\right)\left(x_{1}+x_{0}\right) h}{2}-x_{0} f\left(x_{1}\right) h\right) \\
 \end{aligned}
 $$
-
-
-<!-- 
-
+$$
+\begin{aligned}
+\int_{x_{0}}^{x_{1}} f(x) d x & \approx \int_{x_{0}}^{x_{1}} p_{1}(x) d x \\
 & =x_{1} f\left(x_{0}\right)-\frac{f\left(x_{0}\right)\left(x_{1}+x_{0}\right)}{2}+\frac{f\left(x_{1}\right)\left(x_{1}+x_{0}\right)}{2}-x_{0} f\left(x_{1}\right) \\
 & =f\left(x_{0}\right)\left(x_{1}-\frac{x_{1}+x_{0}}{2}\right)+f\left(x_{1}\right)\left(\frac{x_{1}+x_{0}}{2}-x_{0}\right) \\
 & =f\left(x_{0}\right)\left(\frac{x_{1}-x_{0}}{2}\right)+f\left(x_{1}\right)\left(\frac{x_{1}-x_{0}}{2}\right) \\
-& =\frac{h}{2}\left(f\left(x_{0}\right)+f\left(x_{1}\right)\right)=T -->
+& =\frac{h}{2}\left(f\left(x_{0}\right)+f\left(x_{1}\right)\right)=T
+\end{aligned}
+$$
+
 
 Observe que, cuando $f$ sobre $\left[x_{0}, x_{1}\right]$ está por encima del eje de las abscisas, $T$ puede ser interpretada como el área del trapecio mostrado en la figura de abajo, que es una aproximación para el valor de la integral de $f$ en $\left[x_{0}, x_{1}\right]$. Mientras más pequeño sea $h$, mejor será la aproximación.
 
