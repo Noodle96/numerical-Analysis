@@ -76,7 +76,7 @@ $$
 & =\frac{1}{h}\left(x_{1} f\left(x_{0}\right) \int_{x_{0}}^{x_{1}} d x-f\left(x_{0}\right) \int_{x_{0}}^{x_{1}} x d x+f\left(x_{1}\right) \int_{x_{0}}^{x_{1}} x d x-x_{0} f\left(x_{1}\right) \int_{x_{0}}^{x_{1}} d x\right) \\
 & =\frac{1}{h}\left(x_{1} f\left(x_{0}\right)\left(x_{1}-x_{0}\right)-\frac{f\left(x_{0}\right)\left(x_{1}^{2}-x_{0}^{2}\right)}{2}+\frac{f\left(x_{1}\right)\left(x_{1}^{2}-x_{0}^{2}\right)}{2}-x_{0} f\left(x_{1}\right)\left(x_{1}-x_{0}\right)\right) \\
 & =\frac{1}{h}\left(x_{1} f\left(x_{0}\right) h-\frac{f\left(x_{0}\right)\left(x_{1}+x_{0}\right) h}{2}+\frac{f\left(x_{1}\right)\left(x_{1}+x_{0}\right) h}{2}-x_{0} f\left(x_{1}\right) h\right) \\
-& =\left(x_{1} f\left(x_{0}\right)-\frac{f\left(x_{0}\right)\left(x_{1}+x_{0}\right)}{2}+\frac{f\left(x_{1}\right)\left(x_{1}+x_{0}\right)}{2}-x_{0} f\left(x_{1}\right)\right) \\
+& =x_{1} f\left(x_{0}\right)-\frac{f\left(x_{0}\right)\left(x_{1}+x_{0}\right)}{2}+\frac{f\left(x_{1}\right)\left(x_{1}+x_{0}\right)}{2}-x_{0} f\left(x_{1}\right) \\
 \end{aligned}
 $$
 
