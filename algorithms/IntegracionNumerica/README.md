@@ -168,7 +168,7 @@ eso requerimos que la partición sea definida por $n$ par. Luego:
 $$
 \begin{aligned}
 \int_{a}^{b} f(x) dx &= \int_{x_{0}}^{x_{n}} f(x) dx \\
-&= \sum_{k=1}^{n / 2} \int_{x_{2 k-2}}^{x_{2 k}} f(x) d x \approx \frac{h}{3}\left\{\left[f\left(x_{0}\right)+4 f\left(x_{1}\right)+f\left(x_{2}\right)\right]+\left[f\left(x_{2}\right)+4 f\left(x_{3}\right)+f\left(x_{4}\right)\right]+\cdots+\left[f\left(x_{n-2}\right)+4 f\left(x_{n-1}\right)+f\left(x_{n}\right)\right]\right\}
+&= \sum_{k=1}^{n / 2} \int_{x_{2 k-2}}^{x_{2 k}} f(x) d x \approx \frac{h}{3}\{\left[f\left(x_{0}\right)+4 f\left(x_{1}\right)+f\left(x_{2}\right)\right]+\left[f\left(x_{2}\right)+4 f\left(x_{3}\right)+f\left(x_{4}\right)\right]+\cdots+\left[f\left(x_{n-2}\right)+4 f\left(x_{n-1}\right)+f\left(x_{n}\right)\right]\}
 \end{aligned}
 $$
 
@@ -176,7 +176,7 @@ Más aún,
 
 $$
 \begin{aligned}
-\int_{a}^{b} f(x) d x \approx & \frac{h}{3}\left\{\left[f\left(x_{0}\right)+f\left(x_{n}\right)\right]+4\left[f\left(x_{1}\right)+f\left(x_{3}\right)+\cdots+f\left(x_{n-1}\right)\right] +2\left[f\left(x_{2}\right)+f\left(x_{4}\right)+\cdots+f\left(x_{n-2}\right)\right]\right\}
+\int_{a}^{b} f(x) d x \approx & \frac{h}{3}\{\left[f\left(x_{0}\right)+f\left(x_{n}\right)\right]+4\left[f\left(x_{1}\right)+f\left(x_{3}\right)+\cdots+f\left(x_{n-1}\right)\right] +2\left[f\left(x_{2}\right)+f\left(x_{4}\right)+\cdots+f\left(x_{n-2}\right)\right]\}
 \end{aligned}
 $$
 
