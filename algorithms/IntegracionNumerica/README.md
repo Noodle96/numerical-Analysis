@@ -176,7 +176,7 @@ Más aún,
 
 $$
 \begin{aligned}
-\int_{a}^{b} f(x) d x \approx & \frac{h}{3}\{\left[f\left(x_{0}\right)+f\left(x_{n}\right)\right]+4\left[f\left(x_{1}\right)+f\left(x_{3}\right)+\cdots+f\left(x_{n-1}\right)\right] +2\left[f\left(x_{2}\right)+f\left(x_{4}\right)+\cdots+f\left(x_{n-2}\right)\right]\}
+\int_{a}^{b} f(x) d x \approx & \frac{h}{3}\left[\left[f\left(x_{0}\right)+f\left(x_{n}\right)\right]+4\left[f\left(x_{1}\right)+f\left(x_{3}\right)+\cdots+f\left(x_{n-1}\right)\right] +2\left[f\left(x_{2}\right)+f\left(x_{4}\right)+\cdots+f\left(x_{n-2}\right)\right] \right]
 \end{aligned}
 $$
 
