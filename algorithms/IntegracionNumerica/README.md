@@ -170,7 +170,7 @@ Algoritmo 2 (Regla de Simpson) Dada la función $\mathrm{f}: \mathbb{R} \mapsto 
 
 $$
 \begin{aligned}
-S= & \frac{h}{3}\{[f(a)+f(b)]+4[f(a+h)+f(a+3 h)+\cdots+f(a+(n-1) h)] \\
+S&= \frac{h}{3}\{[f(a)+f(b)]+4[f(a+h)+f(a+3 h)+\cdots+f(a+(n-1) h)] \\
 & +2[f(a+2 h)+f(a+4 h)+\cdots+f(a+(n-2) h)]\}
 \end{aligned}
 $$
