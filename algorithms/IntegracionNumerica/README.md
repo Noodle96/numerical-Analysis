@@ -78,6 +78,7 @@ $$
 & =\frac{1}{h}\left(x_{1} f\left(x_{0}\right) h-\frac{f\left(x_{0}\right)\left(x_{1}+x_{0}\right) h}{2}+\frac{f\left(x_{1}\right)\left(x_{1}+x_{0}\right) h}{2}-x_{0} f\left(x_{1}\right) h\right) \\
 \end{aligned}
 $$
+
 $$
 \begin{aligned}
 \int_{x_{0}}^{x_{1}} f(x) d x & \approx \int_{x_{0}}^{x_{1}} p_{1}(x) d x \\
