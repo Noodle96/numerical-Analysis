@@ -19,10 +19,14 @@ Sin lugar a dudas, esto constituyó uno de los más grandes descubrimientos dent
 Ejemplo 1 Consideremos los discos duros de un determinado modelo y marca producidos por una empresa de material informático. Se sabe que el tiempo de vida de estos discos es una variable aleatoria normalmente distribuida com $\mu=760$ y $\sigma=140$ horas. Se desea determinar la probabilidad de que un disco tenga un tiempo de vida entre 700 y 800 horas.
 
 Se sabe que la siguiente función
-
 $$
-f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}}, -\infty<x<\infty 
+\begin{align*}
+f(x)=\frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}},       &  -\infty<x<\infty  
+\end{align*}
 $$
+<!-- $$
+f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}}  -\infty<x<\infty 
+$$ -->
 <!-- f(x)=\frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}}, \quad-\infty<x<\infty -->
 
 donde $x$ es la variable aleatoria, $\mu$ es la media y $\sigma$ la desviación estándar, corresponde a la distribución Normal.
