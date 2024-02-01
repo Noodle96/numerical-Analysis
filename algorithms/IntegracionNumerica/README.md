@@ -20,9 +20,9 @@ Ejemplo 1 Consideremos los discos duros de un determinado modelo y marca produci
 
 Se sabe que la siguiente función
 $$
-\begin{align*}
+\begin{aligned}
 f(x)=\frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}},       &  -\infty<x<\infty  
-\end{align*}
+\end{aligned}
 $$
 <!-- $$
 f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}}  -\infty<x<\infty 
