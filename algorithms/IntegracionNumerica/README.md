@@ -26,18 +26,18 @@ f(x) &= \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}},
 \end{aligned}
 $$
 
-$$
+<!-- $$
 \begin{aligned}
 	-\infty<x<\infty
 \end{aligned}
-$$
+$$ -->
 
 <!-- $$
 f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}}  -\infty<x<\infty 
 $$ -->
 <!-- f(x)=\frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}}, \quad-\infty<x<\infty -->
 
-donde $x$ es la variable aleatoria, $\mu$ es la media y $\sigma$ la desviación estándar, corresponde a la distribución Normal.
+$-\infty<x<\infty$, donde $x$ es la variable aleatoria, $\mu$ es la media y $\sigma$ la desviación estándar, corresponde a la distribución Normal.
 
 Para determinar la probabilidad que un disco tenga un tiempo de vida entre 700 y 800 horas, debemos calcular:
 
@@ -73,8 +73,19 @@ $$
 \begin{aligned}
 \int_{x_{0}}^{x_{1}} f(x) d x & \approx \int_{x_{0}}^{x_{1}} p_{1}(x) d x \\
 & =\int_{x_{0}}^{x_{1}}\left(\frac{x-x_{1}}{-h} f\left(x_{0}\right)+\frac{x-x_{0}}{h} f\left(x_{1}\right)\right) d x \\
+& =\frac{1}{h} \int_{x_{0}}^{x_{1}}\left(x_{1} f\left(x_{0}\right)-x f\left(x_{0}\right)+x f\left(x_{1}\right)-x_{0} f\left(x_{1}\right)\right) d x \\
+& =\frac{1}{h}\left(x_{1} f\left(x_{0}\right) \int_{x_{0}}^{x_{1}} d x-f\left(x_{0}\right) \int_{x_{0}}^{x_{1}} x d x+f\left(x_{1}\right) \int_{x_{0}}^{x_{1}} x d x-x_{0} f\left(x_{1}\right) \int_{x_{0}}^{x_{1}} d x\right) \\
+& =\frac{1}{h}\left(x_{1} f\left(x_{0}\right)\left(x_{1}-x_{0}\right)-\frac{f\left(x_{0}\right)\left(x_{1}^{2}-x_{0}^{2}\right)}{2}+\frac{f\left(x_{1}\right)\left(x_{1}^{2}-x_{0}^{2}\right)}{2}-x_{0} f\left(x_{1}\right)\left(x_{1}-x_{0}\right)\right) \\
 \end{aligned}
 $$
+
+
+<!-- 
+& =\frac{1}{h}\left(x_{1} f\left(x_{0}\right) h-\frac{f\left(x_{0}\right)\left(x_{1}+x_{0}\right) h}{2}+\frac{f\left(x_{1}\right)\left(x_{1}+x_{0}\right) h}{2}-x_{0} f\left(x_{1}\right) h\right) \\
+& =\left(x_{1} f\left(x_{0}\right)-\frac{f\left(x_{0}\right)\left(x_{1}+x_{0}\right)}{2}+\frac{f\left(x_{1}\right)\left(x_{1}+x_{0}\right)}{2}-x_{0} f\left(x_{1}\right)\right) \\
+& =f\left(x_{0}\right)\left(x_{1}-\frac{x_{1}+x_{0}}{2}\right)+f\left(x_{1}\right)\left(\frac{x_{1}+x_{0}}{2}-x_{0}\right) \\
+& =f\left(x_{0}\right)\left(\frac{x_{1}-x_{0}}{2}\right)+f\left(x_{1}\right)\left(\frac{x_{1}-x_{0}}{2}\right) \\
+& =\frac{h}{2}\left(f\left(x_{0}\right)+f\left(x_{1}\right)\right)=T -->
 
 Observe que, cuando $f$ sobre $\left[x_{0}, x_{1}\right]$ está por encima del eje de las abscisas, $T$ puede ser interpretada como el área del trapecio mostrado en la figura de abajo, que es una aproximación para el valor de la integral de $f$ en $\left[x_{0}, x_{1}\right]$. Mientras más pequeño sea $h$, mejor será la aproximación.
 
