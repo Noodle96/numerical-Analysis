@@ -22,7 +22,7 @@ Se sabe que la siguiente función:
 
 $$
 \begin{aligned}
-f(x) & = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}} 
+f(x) & = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}}, -\infty<x<\infty
 \end{aligned}
 $$
 
