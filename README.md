@@ -14,6 +14,7 @@
 - [Solución de sistemas no lineales](#solucion-de-sistemas-no-lineales)
 - [Minimos cuadrados](#minimos-cuadrados)
 - [Splines](#splines)
+- [Integración Numérica](#Integracion-numerica)
 
 
 ## Ceros Reales de Funciones Reales
@@ -46,3 +47,9 @@
 [(Back to top)](#table-of-contents)
 - [Ir Splines](/algorithms/splines/README.md)
 - Algoritmo Spline Cúbico
+
+## Integración numérica
+[(Back to top)](#table-of-contents)
+- [Ir Integración numérica](/algorithms/IntegracionNumerica/README.md)
+- Método del Trapecio
+- Método de Simpson
