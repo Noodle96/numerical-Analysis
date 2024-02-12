@@ -19,7 +19,7 @@
 
 ## Ceros Reales de Funciones Reales
 [(Back to top)](#table-of-contents)
-- [Ir Ceros Reales de Funciones Reales](/algorithms/CerosReales-FuncionesReales/README.md)
+- [Ir Ceros Reales de Funciones Reales](/algorithms/01_CerosReales-FuncionesReales/README.md)
 - Método de la bisección
 - Método de Newton-Raphson
 - Método de punto fijo
@@ -27,29 +27,29 @@
 
 ## Solucion de sistemas lineales
 [(Back to top)](#table-of-contents)
-- [Ir Sistemas lineales](/algorithms/sistemaLineales/README.md)
+- [Ir Sistemas lineales](/algorithms/02_01_sistemaLineales/README.md)
 - Gauss Jordan
 - Gauus-Jacobi
 - Gauss-Seidel
 
 ## Solucion de sistemas no lineales
 [(Back to top)](#table-of-contents)
-- [Ir Sistemas no lineales](/algorithms/sistemasNoLineales/README.md)
+- [Ir Sistemas no lineales](/algorithms/02_02_sistemasNoLineales/README.md)
 - Broyden 1
 
 ## Minimos Cuadrados
 [(Back to top)](#table-of-contents)
-- [Ir Minimos cuadrados](/algorithms/MinimosCuadrados/README.md)
+- [Ir Minimos cuadrados](/algorithms/03_01_MinimosCuadrados/README.md)
 - Algoritmo PolyFit
 
 
 ## Splines
 [(Back to top)](#table-of-contents)
-- [Ir Splines](/algorithms/splines/README.md)
+- [Ir Splines](/algorithms/03_02_splines/README.md)
 - Algoritmo Spline Cúbico
 
 ## Integración numérica
 [(Back to top)](#table-of-contents)
-- [Ir Integración numérica](/algorithms/IntegracionNumerica/README.md)
+- [Ir Integración numérica](/algorithms/03_04_IntegracionNumerica/README.md)
 - Método del Trapecio
 - Método de Simpson
